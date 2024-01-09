@@ -1,0 +1,237 @@
+.hero{
+    width: 100%;
+    background: #1C1E53;
+    position: relative;
+}
+ .navbar{
+    width: 100%;
+    height: 92px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar .logo{
+    width: 100%;
+    height:92px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
+}
+.navbar .menu{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -100%;
+    top: 0;
+    z-index: 4;
+    display: none;
+    transition: 800ms;
+    transition-duration: 500ms;
+}
+.navbar .menu nav{
+    width: inherit;
+    height: 100vh;
+    display:flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+background-color:#1C1E53;
+}
+.navbar .menu nav div{
+    width: inherit;
+    height: 50px;
+    margin: 0 auto;
+   
+}
+.navbar .menu  nav div a{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    text-decoration: none;
+    font-family: Poppins;
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    transition: 300ms;
+    cursor: pointer;
+}
+.navbar nav button{
+    width: 160px;
+    height: 45px;
+    margin:0 auto;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    background-color: transparent;
+    color: var(--White);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    transition: 300ms;
+}
+.navbar nav button:hover{
+    background-color: #6265bb;
+}
+.navbar .menu nav div a:hover{
+    background-color:#6265bb;
+}
+label[for=show]{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    position: absolute;
+    right: 2%;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label[for=show] div {
+    width: 80%;
+    height: 2px;
+    background-color: lightgray;
+    position: absolute;
+    left: calc(50% - 80% / 2);
+    top: calc(50% - 2px / 2);
+}
+
+label[for=show] div:nth-of-type(1) {
+    width: 80%;
+    height: 2px;
+    background-color: lightgray;
+    position: absolute;
+    left: calc(50% - 80% / 2);
+    top: calc(50% - 2px / 2 - 5px);
+}
+
+label[for=show] div:nth-of-type(2) {
+    width: 80%;
+    height: 2px;
+    background-color: lightgray;
+    position: absolute;
+    left: calc(50% - 80% / 2);
+    top: calc(50% - 2px / 2 + 5px);
+}
+#show, #close {
+    display: none;
+}
+#show:checked ~ .menu{
+    display: block;
+    right: 0;
+}
+label[for=close]{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    background-color:transparent;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 300ms;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+label[for=close]:hover {
+    background-color: crimson;
+}
+
+#close:checked ~ .menu {
+    right: -100%;
+}
+.hero .heroText{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding:0 50px;
+    box-sizing: border-box;
+}
+.hero .heroText .text{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.hero .heroText .text div{
+    width: 100%;
+}
+.hero .heroText .text div h1{
+    color:var(--White);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+}
+.hero .heroText .text div p{
+    color:var(--White);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.hero .heroText .text div button{
+    display: inline-flex;
+    padding: 15px 45px;
+    justify-content: center;
+    align-items: center;
+    color: #1B1C2B;
+    border-radius: 41px;
+    background: #FCD980;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    border: unset;
+}
+.roww{
+    display: flex;
+    flex-flow: row wrap;
+    
+    align-items: center;
+}
+.hero .heroText .text div a{
+    text-decoration: none;
+}
+.hero .heroText .text div a span{
+    color:var(--White);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 20px;
+}
+.hero .heroText .text div a svg{
+    fill: var(--White);
+stroke-width: 1.5px;
+stroke: var(--Grey);
+}
+.hero .heroText .illustration{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.hero .heroText .illustration img{
+    width: inherit;
+}

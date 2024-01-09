@@ -1,0 +1,97 @@
+.benefits{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.benefits .benefitWork{
+width: 80%;
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+}
+.benefits .benefitWork h2{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 44.8px */
+width: 100%;
+text-align: center;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.benefits .benefitWork .benefitCards{
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+.benefits .benefitWork .benefitCards .benefitCard-1,.benefitCard-2,.benefitCard-3{
+    width: 100%;
+    background: var(--Grey);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.benefits .benefitWork .benefitCards h6{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.benefits .benefitWork .benefitCards p{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+width: 100%;
+margin-bottom: 20px;
+opacity: 0.7;
+}
+.benefits .benefitWork .benefitLogo{
+    width: 100%;
+}
+.benefits .benefitWork .benefitLogo .logoNumber{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+}
+.benefits .benefitWork .benefitLogo .logoNumber h3{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 36px */
+}
+.benefits .benefitWork .benefitLogo .logoNumber span{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+margin-bottom: 20px;
+}
+.benefits .benefitWork .benefitLogo .logoWrapper{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 15px;
+}
+.benefits .benefitWork .benefitLogo .logoWrapper svg{
+    width: 15%;
+    margin-bottom: 50px;
+}

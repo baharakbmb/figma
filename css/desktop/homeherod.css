@@ -1,0 +1,172 @@
+.hero {
+  width: 100%;
+  background-color: #1c1e53;
+}
+ .navbar {
+  width: 100%;
+  height: 92px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.navbar .logo {
+  width: 19%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+ .navbar .logo svg {
+  width: 122px;
+  height: 24.709px;
+  flex-shrink: 0;
+}
+ .navbar .menu {
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:flex-end;
+  align-items: center;
+}
+.navbar .menu nav{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 32px;
+  justify-content: flex-end;
+  padding-right: 136px;
+  box-sizing: border-box;
+}
+.navbar .menu nav div a{
+  width: fit-content;
+  height: inherit;
+  color: #BBBBCB;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+text-decoration: none;
+  
+}
+.navbar nav button {
+  width: 185px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background-color: #1c1e53;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+label[for=show],#show,label[for=close],#close{
+  display: none;
+}
+.hero .heroText {
+  width: 100%;
+  height: 668px;
+  display: flex;
+  justify-content: center;
+}
+.hero .heroText .heroBox{
+  width: 80%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items:center ;
+  
+}
+.hero .heroText .text {
+  width: 45%;
+  flex-shrink: 0;
+}
+.hero .heroText .text div:nth-of-type(1) {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 24px;
+}
+.hero .heroText .text div:nth-of-type(1) > h1 {
+  width: 582px;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.hero .heroText .text div:nth-of-type(2) {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 48px;
+}
+.hero .heroText .text div:nth-of-type(2) > p {
+  width: 560px;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; 
+  opacity: 0.7;
+}
+.hero .heroText .text .roww {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  column-gap: 40px;
+}
+.hero .heroText .text .roww button {
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  background: #fcd980;
+  color: #1b1c2b;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  border: unset;
+}
+.hero .heroText .text .roww a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.hero .heroText .text .roww a span {
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-right: 16px;
+}
+.hero .heroText .text .roww a svg{
+  width: 24px;
+height: 10px;
+flex-shrink: 0;
+fill: var(--White);
+stroke-width: 1.5px;
+stroke: var(--Grey);
+}
+.hero .heroText .illustration {
+  width: 51%;
+  height: 361.115px;
+  flex-shrink: 0;
+}
+.hero .heroText .illustration img{
+  width: 100%;
+  object-fit: cover;
+}

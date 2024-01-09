@@ -1,0 +1,86 @@
+.whoWeAre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.whoWeAre .whoAre{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.whoWeAre .whoAre .whoAreTop{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    gap: 4%;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    background: #F4F5F5;
+    margin-top: 10%;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreLeft{
+    width: 100%;
+    display: flex;
+    flex-flow:  column wrap;
+    justify-content: flex-start;
+    
+}
+.whoWeAre .whoAre .whoAreTop .whoAreLeft span{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-top: 9.3%;
+margin-bottom: 1%;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreLeft h3{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; 
+margin-bottom: 2%;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreLeft p{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin-bottom: 9.3%;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreRight{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreRight h3{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 16%;
+    margin-bottom: 1.5%;
+}
+.whoWeAre .whoAre .whoAreTop .whoAreRight p{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.whoWeAre .whoAre .whoAreBottom{
+width: 100%;
+}
+.whoWeAre .whoAre .whoAreBottom img{
+    width: inherit;
+}

@@ -1,0 +1,58 @@
+.workHero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.workHero .workPortfolio{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.workHero .workPortfolio span:nth-of-type(1){
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+opacity: 0.7;
+margin-top: 96px;
+margin-bottom: 4px;
+}
+.workHero .workPortfolio h2{
+    width: 504px;
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-bottom: 24px;
+}
+.workHero .workPortfolio span:nth-of-type(2){
+    width: 733px;
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-bottom: 32px;
+}
+.workHero .workPortfolio .workSocialIcon{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 28px;
+}
+.workHero .workPortfolio .workSocialIcon svg{
+    width: 16px;
+height: 15.57px;
+flex-shrink: 0;
+margin-bottom: 96px;
+}

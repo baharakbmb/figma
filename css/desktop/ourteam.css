@@ -1,0 +1,103 @@
+.ourteam{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--Grey);
+}
+.ourteam .meetOurTeam{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.ourteam .meetOurTeam .meetTeam h2{
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-top: 128px;
+margin-bottom: 48px;
+}
+.ourteam .meetOurTeam .meetcards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 265px 265px 265px 265px;
+    gap: 6px;
+    margin-bottom: 128px;
+    justify-content: center;
+    align-content: center;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1,.meetcard-2,.meetcard-3,.meetcard-4{
+    background: #FFF;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 48px;
+    box-sizing: border-box;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div,.meetcard-2 div,.meetcard-3 div,.meetcard-4 div{
+
+overflow: hidden;
+position: relative;
+width: 168px;
+height: 168px;
+margin: 0 auto;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div img,.meetcard-2 div img,.meetcard-3 div img,.meetcard-4 div img{
+    text-align: center;
+    width:inherit;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div .ellipse,.meetcard-2 div .ellipse,.meetcard-3 div .ellipse,.meetcard-4 div .ellipse{
+    background-color: linear-gradient(348deg, #5239FA 17.97%, rgba(255, 255, 255, 0.00) 79.2%);;
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    bottom: -168px;
+    transition: 300ms;
+    transition-delay: 500ms;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div .ellipse .socials,.meetcard-2 div .ellipse .socials,.meetcard-3 div .ellipse .socials,.meetcard-4 div .ellipse .socials{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-end;
+    justify-content: center;
+    text-align: center;
+    column-gap: 10px;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div .ellipse svg,.meetcard-2 div .ellipse svg,.meetcard-3 div .ellipse svg,.meetcard-4 div .ellipse svg{
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+    margin-bottom: 28px;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 div:hover .ellipse,.meetcard-2 div:hover .ellipse,.meetcard-3 div:hover .ellipse,.meetcard-4 div:hover .ellipse{
+    bottom: 0;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 h6,.meetcard-2 h6,.meetcard-3 h6,.meetcard-4 h6{
+    width: 198px;
+height: 36px;
+flex-shrink: 0;
+color: var(--b);
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+margin-bottom: 2px;
+margin-top: 30px;
+}
+.ourteam .meetOurTeam .meetcards .meetcard-1 span,.meetcard-2 span,.meetcard-3 span,.meetcard-4 span{
+    color: var(--b);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+opacity: 0.7;
+text-align: center;
+margin-bottom: 32px;
+}

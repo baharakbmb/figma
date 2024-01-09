@@ -1,0 +1,215 @@
+
+.pricingCards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pricingCards .pricingcard{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 350px 350px 360px;
+    gap: 20px;
+}
+.pricingCards .pricingcard .pricingCard-1,.pricingCard-3{
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 48px;
+    box-sizing: border-box;
+    border-radius: 12px;
+background: var(--Grey);
+}
+.pricingCards .pricingcard .pricingCard-2{
+    background: #1C1E53;
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 48px;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent,.pricingCard-2 .pricingContent,.pricingCard-3 .pricingContent{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop,.pricingCard-2 .pricingContent .pricingContentTop,.pricingCard-3 .pricingContent .pricingContentTop{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 8px;
+    margin-bottom: 20px;
+    margin-top: 64px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop h3,.pricingCard-3 .pricingContent .pricingContentTop h3{
+    width:130px;
+height: 56px;
+flex-shrink: 0;
+color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px; /* 147.368% */
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentTop h3{
+    width:130px;
+height: 56px;
+flex-shrink: 0;
+color: var(--White);
+font-family: Poppins;
+font-size: 38px;
+font-style: normal;
+font-weight: 600;
+line-height: 56px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop p,.pricingCard-3 .pricingContent .pricingContentTop p{
+    color: var(--Royal-Blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentTop p{
+    color: var(--Yellow);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentBottom,.pricingCard-2 .pricingContent .pricingContentBottom,.pricingCard-3 .pricingContent .pricingContentBottom{
+    display: flex;
+    flex-flow: column wrap;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentBottom h6,.pricingCard-3 .pricingContent .pricingContentBottom h6{
+    width: 198px;
+height: 38px;
+flex-shrink: 0;
+color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; 
+margin-bottom: 8px;
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentBottom h6{
+    width: 198px;
+height: 38px;
+flex-shrink: 0;
+color: var(--White);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; 
+margin-bottom: 8px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentBottom span,.pricingCard-3 .pricingContent .pricingContentBottom span{
+    width: 281px;
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+opacity: 0.7;
+margin-bottom: 78px;
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentBottom span{
+    width: 281px;
+    color: var(--White);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+opacity: 0.7;
+margin-bottom: 78px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList,.pricingCard-2 .pricingList,.pricingCard-3 .pricingList{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 20px;
+    margin-bottom: 79px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5,.pricingCard-2 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5,.pricingCard-3 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    column-gap: 12px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg,.pricingCard-2 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg,.pricingCard-3 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg{
+    width: 26px;
+height: 18px;
+transform: rotate(90deg);
+flex-shrink: 0;
+fill: #97DAAD;
+stroke-width: 3px;
+stroke: #FFF;
+color:rgba(151, 218, 173, 1)
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-4 svg,.pricingList-5 svg,.pricingCard-2 .pricingList .pricingList-4 svg,.pricingList-5 svg,.pricingCard-3 .pricingList .pricingList-4 svg,.pricingList-5 svg{
+    width: 26px;
+height: 18px;
+transform: rotate(90deg);
+flex-shrink: 0;
+fill: #FC80AD;
+stroke-width: 3px;
+stroke: #FFF;
+mix-blend-mode: luminosity;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1 p,.pricingList-2 p,.pricingList-3 p,.pricingList-4 p,.pricingList-5 p,.pricingCard-3 .pricingList .pricingList-1 p,.pricingList-2 p,.pricingList-3 p,.pricingList-4 p,.pricingList-5 p{
+    color: var(--Dark-blue) !important;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingList .pricingList-1 p,.pricingCard-2 .pricingList .pricingList-2 p,.pricingCard-2 .pricingList .pricingList-3 p,.pricingCard-2 .pricingList .pricingList-4 p,.pricingCard-2 .pricingList .pricingList-5 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color:var(--Grey) !important;
+}
+.pricingCards .pricingcard .pricingCard-1 button,.pricingCard-2 button,.pricingCard-3 button{
+    display: flex;
+width: 254px;
+height: 64px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 41px;
+background: var(--Dark-blue);
+color: var(--Grey);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+margin-bottom: 62px;
+}
+.pricingCards .pricingcard .pricingCard-2 button{
+        display: flex;
+width: 254px;
+height: 64px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 41px;
+background: var(--Yellow);
+color: var(--Grey);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+margin-bottom: 62px;
+}

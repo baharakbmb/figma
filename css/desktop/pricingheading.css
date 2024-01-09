@@ -1,0 +1,35 @@
+.pricingHeading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pricingHeading .pricing{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+.pricingHeading  .pricing h2{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-top: 128px;
+text-align: center;
+margin-bottom: 16px;
+}
+.pricingHeading  .pricing span{
+    width: 562px;
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin: 0 auto;
+margin-bottom: 64px;
+}

@@ -1,0 +1,49 @@
+.abutHero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.abutHero .contentAbout{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.abutHero .contentAbout .contentAboutLeft{
+    width: 100%;
+}
+.abutHero .contentAbout .contentAboutLeft span{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+}
+.abutHero .contentAbout .contentAboutLeft h1{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 52px */
+margin-bottom: 20px;
+}
+.abutHero .contentAbout .contentAboutLeft p{
+    color: var(--Dark-blue);
+font-family: Poppins;
+width: 100%;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+margin-bottom: 50px;
+opacity: 0.7;
+}
+.abutHero .contentAbout .contentAboutRight{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.abutHero .contentAbout .contentAboutRight img{
+    width: 100%;
+}

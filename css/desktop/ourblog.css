@@ -1,0 +1,84 @@
+.ourblog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ourblog .blog{
+    width:80%;
+flex-shrink: 0;
+display: flex;
+flex-flow: column wrap;
+}
+.ourblog .blog h2{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-top: 128px;
+margin-bottom: 64px;
+}
+.ourblog .blog .blogcards{
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+    gap: 3px;
+}
+.ourblog .blog .blogcards .blogCard1 img,.blogCard2 img,.blogCard3 img{
+    width: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.ourblog .blog .blogcards .blogCard1 span,.blogCard2 span,.blogCard3 span{
+    width: 93px;
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+opacity: 0.7;
+}
+.ourblog .blog .blogcards .blogCard1 h6,.blogCard2 h6,.blogCard3 h6{
+    width: 300px;
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px; /* 150% */
+}
+.ourblog .blog .blogcards .blogCard1 p,.blogCard2 p,.blogCard3 p{
+    width: 300px;
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+opacity: 0.7;
+}
+.ourblog .blog .blogcards .blogCard1 a,.blogCard2 a,.blogCard3 a{
+    color: #282938;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+margin-bottom: 128px;
+column-gap: 16px;
+text-decoration: none;
+}
+.ourblog .blog .blogcards .blogCard1 a svg,.blogCard2 a svg,.blogCard3 a svg{
+    width: 24px;
+height: 10px;
+flex-shrink: 0;
+fill: var(--Royal-Blue);
+stroke-width: 1.5px;
+stroke: var(--Dark-blue);
+
+}

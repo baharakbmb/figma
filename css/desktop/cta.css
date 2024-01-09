@@ -1,0 +1,59 @@
+.cta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cta .ctaSection{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.cta .ctaSection .HeadlineBody{
+    display: flex;
+flex-flow: column wrap;
+align-content: center;
+}
+.cta .ctaSection .HeadlineBody h2{
+    width: 730px;
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 64px; 
+margin-bottom: 20px;
+margin-top: 128px;
+}
+.cta .ctaSection .HeadlineBody span{
+    width: 562px;
+    color: var(--Dark-blue);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; 
+margin-bottom: 40px;
+opacity: 0.7;
+margin: 0 auto;
+}
+.cta .ctaSection .HeadlineBody button{
+    display: flex;
+width: 250px;
+height: 64px;
+padding: 16px 67px 16px 66px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 41px;
+background: #FCD980;
+color: #1B1C2B;
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; 
+margin: 40px auto;
+border: unset;
+}

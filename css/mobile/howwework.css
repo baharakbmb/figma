@@ -1,0 +1,76 @@
+.howWork {
+  width: 100%;
+  background-color: #f4f6fc;
+  padding: 50px 50px;
+  box-sizing: border-box;
+}
+.howWork .work {
+width: 100%;
+}
+.howWork .work h2 {
+  width: inherit;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+.howWork .work p {
+  width: inherit;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.7;
+}
+.howWork .work a {
+  text-decoration: none;
+  color: var(--Royal-Blue);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.howWork .work .botton {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.howWork .work a svg {
+  width: 18px;
+  stroke-width: 1.5px;
+  stroke: var(--Royal-Blue);
+  margin-left: 5px;
+}
+.howWork .explain {
+  display: grid;
+  grid-template-columns: repeat(1,100%);
+  grid-template-rows: repeat(4,auto);
+  row-gap: 20px;
+}
+
+ h5 {
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+ p {
+  color: var(--Dark-blue);
+  width: 250px;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+

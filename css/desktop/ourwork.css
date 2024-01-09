@@ -1,0 +1,188 @@
+.ourWork {
+  width: 100%;
+  height: 984px;
+  display: flex;
+  justify-content: center;
+}
+.ourWork .workcontet {
+  width:80%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.ourWork .workcontet .worktop {
+  width:100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourWork .workcontet .worktop h2 {
+  width: 467px;
+  color: var(--Dark-blue);
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.ourWork .workcontet .worktop a {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  text-decoration: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 16px;
+}
+.ourWork .workcontet .worktop a svg {
+  width: 24px;
+  height: 10px;
+  flex-shrink: 0;
+  fill: var(--Royal-Blue);
+  stroke-width: 1.5px;
+  stroke: var(--Dark-blue);
+}
+.ourWork .workcontet .workbotton {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-flow: row wrap;
+justify-content: space-between;
+}
+.ourWork .workcontet .workbotton .workbottonLeft {
+  width: 65%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.ourWork .workcontet .workbotton .workbottonLeft img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+.ourWork .workcontet .workbotton .workbottonLeft .rectangle {
+  width: 50%;
+  height: 600px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-around;
+  justify-content: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+  position: absolute;
+  left: -50%;
+  top: 0;
+  transition: 800ms;
+  transition-delay: 500ms;
+}
+.ourWork .workcontet .workbotton .workbottonLeft:hover .rectangle {
+  left: 0;
+  top: 0;
+}
+.ourWork .workcontet .workbotton .workbottonLeft .rectangle span {
+  width: 313px;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 312px;
+  margin-bottom: 16px;
+}
+.ourWork .workcontet .workbotton .workbottonLeft .rectangle p {
+  width: 293px;
+  color: var(--White);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.8;
+  margin-bottom: 40px;
+}
+.ourWork .workcontet .workbotton .workbottonLeft .rectangle a {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-decoration: none;
+  color: var(--Yellow);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  gap: 16px;
+}
+.ourWork .workcontet .workbotton .workbottonRight {
+  width: 25%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: flex-end;
+  gap: 32px;
+}
+.ourWork .workcontet .workbotton .workbottonRight div {
+  width: 405px;
+  height: 284px;
+  overflow: hidden;
+  position: relative;
+}
+.ourWork .workcontet .workbotton .workbottonRight div img {
+  width: inherit;
+  height: inherit;
+}
+.ourWork .workcontet .workbotton .workbottonRight div:nth-of-type(1) .rectangle-1{
+  width: 405px;
+  height: 284px;
+  flex-shrink: 0;
+  background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-content: center;
+  position: absolute;
+  right:-405px;
+  top:0;
+  transition: 800ms;
+  transition-delay: 500ms;
+}
+
+.ourWork .workcontet .workbotton .workbottonRight div:nth-of-type(1) .rectangle-1 h2{
+  width: 313px;
+  color: var(--White);
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 36px; /* 150% */
+  margin-top: 129px;
+  margin-bottom: 10px;
+}
+.ourWork .workcontet .workbotton .workbottonRight div:nth-of-type(1) .rectangle-1 a{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-decoration: none;
+  color: var(--Yellow);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 175% */
+gap: 16px;
+margin-bottom: 45px;
+}
+.ourWork .workcontet .workbotton .workbottonRight div:nth-of-type(1):hover .rectangle-1{
+right: 0;
+top: 0;
+}

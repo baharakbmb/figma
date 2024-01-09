@@ -1,0 +1,199 @@
+.pricingCards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pricingCards .pricingcard{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(1,100%);
+    grid-template-rows: repeat(3,auto);
+    gap: 20px;
+    margin-top: 20px;
+}
+.pricingCards .pricingcard .pricingCard-1,.pricingCard-3{
+    width: 100%;
+    border-radius: 12px;
+    background: var(--Grey);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.pricingCards .pricingcard .pricingCard-2{
+    background: #1C1E53;
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent,.pricingCard-2 .pricingContent,.pricingCard-3 .pricingContent{
+    width: 100%;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop,.pricingCard-2 .pricingContent .pricingContentTop,.pricingCard-3 .pricingContent .pricingContentTop{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop h3,.pricingCard-3 .pricingContent .pricingContentTop h3{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentTop h3{
+    color: var(--White);
+    font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; 
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentTop p,.pricingCard-3 .pricingContent .pricingContentTop p{
+    color: var(--Royal-Blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width:fit-content;
+    text-align: center;
+    margin-top: 20px;
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentTop p{
+    color: var(--Yellow);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width:fit-content;
+    text-align: center;
+    margin-top: 20px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentBottom h6,.pricingCard-3 .pricingContent .pricingContentBottom h6{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 21px */
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentBottom h6{
+    color: var(--White);
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingContent .pricingContentBottom span,.pricingCard-3 .pricingContent .pricingContentBottom span{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+}
+.pricingCards .pricingcard .pricingCard-2 .pricingContent .pricingContentBottom span{
+    color: var(--White); 
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList,.pricingCard-2 .pricingList,.pricingCard-3 .pricingList{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5,.pricingCard-2 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5,.pricingCard-3 .pricingList .pricingList-1,.pricingList-2,.pricingList-3,.pricingList-4,.pricingList-5{
+    display:flex;
+    flex-flow: row wrap;
+    align-content: center;
+    column-gap: 12px;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg,.pricingCard-2 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg,.pricingCard-3 .pricingList .pricingList-1 svg,.pricingList-2 svg,.pricingList-3 svg{
+    width: 26px;
+height: 18px;
+transform: rotate(90deg);
+flex-shrink: 0;
+fill: #97DAAD;
+stroke-width: 3px;
+stroke: #FFF;
+color:rgba(151, 218, 173, 1)
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-4 svg,.pricingList-5 svg,.pricingCard-2 .pricingList .pricingList-4 svg,.pricingList-5 svg,.pricingCard-3 .pricingList .pricingList-4 svg,.pricingList-5 svg{
+    width: 26px;
+height: 18px;
+transform: rotate(90deg);
+flex-shrink: 0;
+fill: #FC80AD;
+stroke-width: 3px;
+stroke: #FFF;
+mix-blend-mode: luminosity;
+}
+.pricingCards .pricingcard .pricingCard-1 .pricingList .pricingList-1 p,.pricingList-2 p,.pricingList-3 p,.pricingList-4 p,.pricingList-5 p,.pricingCard-3 .pricingList .pricingList-1 p,.pricingList-2 p,.pricingList-3 p,.pricingList-4 p,.pricingList-5 p{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.pricingCard-2 .pricingList .pricingList-1 p,.pricingCard-2 .pricingList .pricingList-2 p,.pricingCard-2 .pricingList .pricingList-3 p,.pricingCard-2 .pricingList .pricingList-4 p,.pricingCard-2 .pricingList .pricingList-5 p{
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: white;  
+}
+.pricingCards .pricingcard .pricingCard-1 button,.pricingCard-3 button{
+    display: flex;
+width: 230px;
+height: 64px;
+padding: 15px 51px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 41px;
+background: var(--Dark-blue);
+color: var(--Grey);
+font-family: Manrope;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 177.778% */
+margin-bottom: 62px;
+}
+.pricingCards .pricingcard .pricingCard-2 button{
+    background: var(--Yellow);
+    display: flex;
+    width: 230px;
+    height: 64px;
+    padding: 15px 51px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 41px;
+    color: var(--Grey);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    margin-bottom: 62px;
+}

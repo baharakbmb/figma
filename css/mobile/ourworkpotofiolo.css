@@ -1,0 +1,156 @@
+.ourWorkPortofiolo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ourWorkPortofiolo .workCards{
+    width: 80%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+.ourWorkPortofiolo .workCards .workCardsTop{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.ourWorkPortofiolo .workCards .workCardsTop a{
+    color: var(--Dark-blue);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+text-decoration: none;
+}
+.ourWorkPortofiolo .workCards .workCardsTop a:nth-of-type(1){
+    color: var(--Royal-Blue);
+    font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+opacity: 0.7;
+text-decoration: none;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom{
+display: grid;
+grid-template-columns: repeat(1,100%);
+grid-template-rows: repeat(6,auto);
+gap: 20px;
+margin-bottom: 50px;
+}
+
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+display: flex;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+margin-bottom: 20px;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-2 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+display: flex;
+margin-bottom: 20px;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+background: linear-gradient(131deg, #FFD3AF 16.74%, #4F56FF 103.17%);
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-3 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+display: flex;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+background: linear-gradient(131deg, #EEBCA7 16.74%, #C8C8C8 103.17%);
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-4 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+display: flex;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+margin-bottom: 20px;
+justify-content: center;
+align-items: center;
+background: linear-gradient(131deg, #C2E7F2 16.74%, #98A4FF 103.17%);
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-5 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+display: flex;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+background: linear-gradient(131deg, #C5BCFF 16.74%, #9BF6D5 103.17%);
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-6 .workpTop .bg{
+    width: 100%;
+    flex-shrink: 0;
+display: flex;
+margin-bottom: 20px;
+padding: 30px 39px 33px 39px;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+background: linear-gradient(131deg, #D2D6FD 16.74%, #D6ACEA 103.17%);
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpTop .bg img,.workCard-2 .workpTop .bg img,.workCard-3 .workpTop .bg img,.workCard-4 .workpTop .bg img,.workCard-5 .workpTop .bg img,.workCard-6 .workpTop .bg img{
+    width: 95%;
+flex-shrink: 0;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpBottom,.workCard-2 .workpBottom,.workCard-3 .workpBottom,.workCard-4 .workpBottom,.workCard-5 .workpBottom,.workCard-6 .workpBottom{
+    width: 100%;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpBottom h3,.workCard-2 .workpBottom h3,.workCard-3 .workpBottom h3,.workCard-4 .workpBottom h3,.workCard-5 .workpBottom h3,.workCard-6 .workpBottom h3{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    margin-bottom: 20px;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpBottom p,.workCard-2 .workpBottom p,.workCard-3 .workpBottom p,.workCard-4 .workpBottom p,.workCard-5 .workpBottom p,.workCard-6 .workpBottom p{
+    width:100%;
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-align: justify;
+opacity: 0.7;
+margin-bottom: 25px;
+}
+.ourWorkPortofiolo .workCards .workCardsBottom .workCard-1 .workpBottom a,.workCard-2 .workpBottom a,.workCard-3 .workpBottom a,.workCard-4 .workpBottom a,.workCard-5 .workpBottom a,.workCard-6 .workpBottom a{
+    color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+text-decoration: none;
+column-gap: 16px;
+}
